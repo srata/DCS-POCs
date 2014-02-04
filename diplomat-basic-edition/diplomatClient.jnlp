@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+"
+    codebase="http://108.49.115.164:9997/diplomat"
+    href="diplomatClient.jnlp">
+    <information>
+        <title>Diplomat Client</title>
+        <vendor>Coviant Software Corporation</vendor>
+    </information>
+    
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="diplomatClient.jar" main="true" />
+    </resources>
+    
+    <application-desc
+         name="Diplomat Client"
+         main-class= "diplomat.client.StartupClient"
+         width="1010"
+         height="700">
+     </application-desc>
+     <update check="background"/>
+     <security><all-permissions/></security>
+</jnlp>   
